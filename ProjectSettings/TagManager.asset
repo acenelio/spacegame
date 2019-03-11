@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Bakeground
+    uniqueID: 3305192369
+    locked: 0
+  - name: Foreground
+    uniqueID: 581413189
+    locked: 0
