@@ -4884,18 +4884,17 @@ Transform:
   - {fileID: 519728939}
   - {fileID: 1897368889}
   - {fileID: 1761125254}
-  - {fileID: 1393052441}
-  - {fileID: 63572931}
-  - {fileID: 1758686133}
   - {fileID: 1277453886}
   - {fileID: 1857176937}
   - {fileID: 108851096}
+  - {fileID: 1393052441}
   - {fileID: 764936599}
   - {fileID: 1596362883}
   - {fileID: 1862551992}
   - {fileID: 2091691624}
   - {fileID: 2061010942}
   - {fileID: 913586415}
+  - {fileID: 63572931}
   - {fileID: 1071115431}
   - {fileID: 792241638}
   - {fileID: 2088005410}
@@ -4908,6 +4907,7 @@ Transform:
   - {fileID: 1720792755}
   - {fileID: 1571876682}
   - {fileID: 186508911}
+  - {fileID: 1758686133}
   - {fileID: 1019390150}
   - {fileID: 1979810931}
   - {fileID: 143523736}
@@ -7405,8 +7405,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.028109431}
-  m_Size: {x: 1.1013417, y: 1.1013417}
+  m_Offset: {x: 0.062169194, y: -0.02024424}
+  m_Size: {x: 0.97700334, y: 0.97700405}
   m_Direction: 0
 --- !u!50 &1253007203
 Rigidbody2D:
