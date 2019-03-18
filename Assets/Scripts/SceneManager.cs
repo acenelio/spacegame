@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions; 
 
 public class SceneManager : MonoBehaviour
 {
@@ -9,13 +10,16 @@ public class SceneManager : MonoBehaviour
     [SerializeField]
     private Transform Tape = null;
 
- // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        Assert.IsNotNull(Tape);
     }
 
-    // Update is called once per frame
+    void Start()
+    {
+
+    }
+
     void Update()
     {
         Tape.position = Tape.position + TapeSpeed * Time.deltaTime;
