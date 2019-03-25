@@ -6844,7 +6844,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1084311389}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a82d69848418e5e44a095eacc6b379f7, type: 3}
+  m_Script: {fileID: 11500000, guid: 79830f335283427439cac936ecf4edf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   coinParticles: {fileID: 4448824745484646943, guid: c38a0a650a5f6d5438477a520a598518,
