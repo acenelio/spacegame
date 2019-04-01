@@ -5,24 +5,35 @@ using UnityEngine.Assertions;
 
 public class SceneManager : MonoBehaviour
 {
+    public static SceneManager instance = null;
+
     [SerializeField]
     private Vector3 TapeSpeed = new Vector3(-2f, 0f, 0f);
     [SerializeField]
     private Transform Tape = null;
 
     public UIcomponents uiComponents;
+
+    SceneData sceneData = new SceneData();
     void Awake()
     {
         Assert.IsNotNull(Tape);
-    }
-
-    void Start()
-    {
-
+        if (instance == null){
+            instance = this;
+        }
     }
 
     void Update()
     {
         Tape.position = Tape.position + TapeSpeed * Time.deltaTime;
+        DisplayHubData();
+    }
+
+    public void IncrementCoinCount() {
+        sceneData.coinCount++;
+    }
+
+    void DisplayHubData(){
+        uiComponents.hud.txtCoinCount.text = "x " + sceneData.coinCount;
     }
 }
