@@ -11,6 +11,11 @@ public class PlayerControl : MonoBehaviour
             Destroy(other.gameObject);
             LevelManager.instance.IncrementCoinCount();
         }
+        if (other.gameObject.CompareTag("Gift")){
+            StopMusicAndTape();
+            AudioManager.instance.PlayLevelCompleteSound(gameObject);
+            Destroy(other.gameObject);
+        }
         else if (other.gameObject.layer==LayerMask.NameToLayer("Enemies")){
             KillPlayer();
         }
@@ -18,11 +23,15 @@ public class PlayerControl : MonoBehaviour
             KillPlayer();
     }
 }
-    void KillPlayer (){
+
+    void StopMusicAndTape(){
         Camera.main.GetComponentInChildren<AudioSource>().mute = true;
-            LevelManager.instance.SetTapeSpeed(0);
-            AudioManager.instance.PlayFailSound(gameObject);
-            SFXManager.instance.ShowDieParticles(gameObject);
-            Destroy(gameObject);
+        LevelManager.instance.SetTapeSpeed(0);
+    }
+    void KillPlayer (){
+        StopMusicAndTape();
+        AudioManager.instance.PlayFailSound(gameObject);
+        SFXManager.instance.ShowDieParticles(gameObject);
+        Destroy(gameObject);
     }
 }
