@@ -8140,6 +8140,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinParticles: {fileID: 4448824745484646943, guid: c38a0a650a5f6d5438477a520a598518,
     type: 3}
+  dieParticles: {fileID: 9220040670562158387, guid: 15e2c71b3a4096042a485ec59e9c4b0c,
+    type: 3}
 --- !u!1001 &1123692372
 PrefabInstance:
   m_ObjectHideFlags: 0
