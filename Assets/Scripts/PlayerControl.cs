@@ -12,11 +12,17 @@ public class PlayerControl : MonoBehaviour
             LevelManager.instance.IncrementCoinCount();
         }
         else if (other.gameObject.layer==LayerMask.NameToLayer("Enemies")){
-            Camera.main.GetComponentInChildren<AudioSource>().mute = true;
+            KillPlayer();
+        }
+        else if (other.gameObject.layer==LayerMask.NameToLayer("Forbiden")){
+            KillPlayer();
+    }
+}
+    void KillPlayer (){
+        Camera.main.GetComponentInChildren<AudioSource>().mute = true;
             LevelManager.instance.SetTapeSpeed(0);
             AudioManager.instance.PlayFailSound(gameObject);
             SFXManager.instance.ShowDieParticles(gameObject);
             Destroy(gameObject);
-        }
     }
 }
