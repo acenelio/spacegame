@@ -24,6 +24,16 @@ public class LevelCompleatePanel  {
     public GameObject LCPanel;
     }
 
+[Serializable]
+public class GameOverPanel  {
+    [Header("Text")]
+    public Text txtScore;
+
+    [Header("Other")]
+    public GameObject GOPanel;
+    }
+
     public Hud hud;
     public LevelCompleatePanel LCPanel;
+    public GameOverPanel gameOverPanel;
 }
