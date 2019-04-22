@@ -14,6 +14,7 @@ public class PlayerControl : MonoBehaviour
         if (other.gameObject.CompareTag("Gift")){
             StopMusicAndTape();
             AudioManager.instance.PlayLevelCompleteSound(gameObject);
+            Destroy(gameObject);
             Destroy(other.gameObject);
             LevelManager.instance.ShowLevelCompletePanel();
         }
