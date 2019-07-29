@@ -155,7 +155,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &197928396
+--- !u!1 &350741817
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -163,22 +163,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 197928398}
-  - component: {fileID: 197928397}
+  - component: {fileID: 350741819}
+  - component: {fileID: 350741818}
   m_Layer: 0
-  m_Name: fundo
+  m_Name: "fundo principal AGR \xC9"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &197928397
+--- !u!212 &350741818
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 197928396}
+  m_GameObject: {fileID: 350741817}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -209,27 +209,27 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 85eefb46923e541489546c93ded63b81, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9f9848e85889777418990dcbb21106a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 6.77, y: 4.25}
+  m_Size: {x: 19.2, y: 12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &197928398
+--- !u!4 &350741819
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 197928396}
+  m_GameObject: {fileID: 350741817}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.004, y: 0.003, z: 0}
-  m_LocalScale: {x: 2.628486, y: 2.628486, z: 2.628486}
+  m_LocalPosition: {x: 0.018, y: -0, z: 0}
+  m_LocalScale: {x: 0.66800576, y: 0.556151, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
