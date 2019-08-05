@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2a22b0ff4c508a74382993d43fb0f00e
+guid: 2167cebdc415d6546a2dfb002ed6d27f
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,10 +8,11 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: A-Space Light Demo
+  fontName: Orbitron
   fontNames:
-  - A-Space Light Demo
-  fallbackFontReferences: []
+  - Orbitron
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 15a6748fbcd62b94da22ddc287da913b, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
