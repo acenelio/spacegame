@@ -1090,6 +1090,7 @@ GameObject:
   - component: {fileID: 470370735}
   - component: {fileID: 470370734}
   - component: {fileID: 470370733}
+  - component: {fileID: 470370736}
   m_Layer: 8
   m_Name: FatBird
   m_TagString: Player
@@ -1107,7 +1108,7 @@ Animator:
   m_GameObject: {fileID: 470370728}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0624a890cff5278408874ca06460d9e3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 32060f16786751f4a896727b4c53e6e8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1153,8 +1154,8 @@ SpriteRenderer:
   m_SortingLayerID: 581413189
   m_SortingLayer: 2
   m_SortingOrder: 100
-  m_Sprite: {fileID: 21300000, guid: c8c7ecd031b82b3429b477545cf62e9c, type: 3}
-  m_Color: {r: 0, g: 0.48158765, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 26d694c5927a8c64dab7447d63253dc9, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -1172,7 +1173,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470370728}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: 0, z: 0}
+  m_LocalPosition: {x: -4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1237,9 +1238,25 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.11209273, y: 0.06565416}
-  m_Size: {x: 0.97752714, y: 1.8095491}
+  m_Offset: {x: -0.05339551, y: 0.043440342}
+  m_Size: {x: 0.5440173, y: 1.8539767}
   m_Direction: 0
+--- !u!70 &470370736
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470370728}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.02069804, y: -0.26908284}
+  m_Size: {x: 2.3758106, y: 0.9131221}
+  m_Direction: 1
 --- !u!1 &591078466
 GameObject:
   m_ObjectHideFlags: 0
