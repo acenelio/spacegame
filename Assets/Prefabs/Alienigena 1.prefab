@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 7230460458900200861}
   - component: {fileID: 7230460458900200860}
   - component: {fileID: 7230460458900200835}
+  - component: {fileID: 4904024607782746210}
   m_Layer: 9
-  m_Name: Alienigena
+  m_Name: Alienigena 1
   m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,12 +71,12 @@ SpriteRenderer:
   m_SortingLayerID: 581413189
   m_SortingLayer: 2
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 4bd18960c1c8a704292f4668e13b866e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 408d9806b2332744680dccedf9dd72b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.8411765, y: 2.8411765}
+  m_Size: {x: 2.8, y: 2.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -91,11 +92,11 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0058948994, y: 0.0058442354}
-  m_Size: {x: 1.1455245, y: 1.9407792}
+  m_Offset: {x: -0.0058948994, y: -0.31302607}
+  m_Size: {x: 1.1455245, y: 1.3030386}
   m_Direction: 0
 --- !u!70 &7230460458900200835
 CapsuleCollider2D:
@@ -107,9 +108,25 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.011694757, y: -0.72508854}
   m_Size: {x: 2.6306705, y: 0.75948703}
   m_Direction: 1
+--- !u!70 &4904024607782746210
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7230460458900200834}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.035429478, y: 0.588138}
+  m_Size: {x: 0.2915554, y: 0.7450602}
+  m_Direction: 0
