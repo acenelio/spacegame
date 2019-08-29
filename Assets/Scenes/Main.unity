@@ -492,7 +492,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NOME DO JOGO
+  m_Text: SPACE GAME
 --- !u!222 &1109055525
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -653,7 +653,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NOME DO JOGO
+  m_Text: SPACE GAME
 --- !u!222 &1555936186
 CanvasRenderer:
   m_ObjectHideFlags: 0
