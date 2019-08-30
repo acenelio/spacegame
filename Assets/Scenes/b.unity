@@ -3276,7 +3276,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d10442eae79d2d84e97d0c4b50fcb003, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.03
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4083,9 +4083,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSFX:
-    coinPickup: {fileID: 8300000, guid: 71403e6bb97cbeb40bf252bf950b43d7, type: 3}
-    fail: {fileID: 8300000, guid: c76583cc95744cf4db6c77e1a85ff84c, type: 3}
-    levelComplete: {fileID: 8300000, guid: f2bfd2c2f9dc57446b017c808a14c3f7, type: 3}
+    coinPickup: {fileID: 8300000, guid: e25a78fd1393e9746bfc2b1d56670f1c, type: 3}
+    fail: {fileID: 8300000, guid: 9723af3adb87cfb469b32a3839ecdf37, type: 3}
+    levelComplete: {fileID: 8300000, guid: b56aef32dbea6c448aac599221755685, type: 3}
   audioPlayer:
     jump: {fileID: 0}
 --- !u!114 &318313034
@@ -15636,7 +15636,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: a
+          m_StringArgument: b
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
