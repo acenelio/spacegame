@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3400107808971578227}
   - component: {fileID: 3400107808971578252}
-  - component: {fileID: 800314773681289839}
   m_Layer: 0
   m_Name: GhostMoving
   m_TagString: Untagged
@@ -47,36 +46,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58a120404388c564c8138d5be33ab720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 4402410932810479888}
+  obj: {fileID: 1447231784, guid: 1209d0d48380c4843a28da7e7a0570af, type: 3}
   pos1: {fileID: 3400107809196062912}
   pos2: {fileID: 3400107809044241045}
   waitTime: 0.5
   speed: 2
---- !u!114 &800314773681289839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3400107808971578253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5426c949e32a3fa42a8d79eba829bea9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 1760195275709367517, guid: 1d17bf68812514642b48b5a3a97798d5, type: 3}
-  spawnPoint: {fileID: 4402410932810479888}
-  waitTime: 3
-  ProjectileSpeed: 3
-  directions:
-  - {x: -1, y: 0, z: 0}
-  - {x: -0.7, y: 0.7, z: 0}
-  - {x: 0, y: 1, z: 0}
-  - {x: 0.7, y: 0.7, z: 0}
-  - {x: 1, y: 0, z: 0}
-  - {x: 0.7, y: -0.7, z: 0}
-  - {x: 0, y: -1, z: 0}
-  - {x: -0.7, y: -0.7, z: 0}
 --- !u!1 &3400107809044241046
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,12 +180,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb1399a5301c8074aba6877b6833bb55, type: 3}
---- !u!1 &4402410932810479888 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1312550125372244971, guid: cb1399a5301c8074aba6877b6833bb55,
-    type: 3}
-  m_PrefabInstance: {fileID: 3400107808736410363}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7784971604840700719 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4838654235414077908, guid: cb1399a5301c8074aba6877b6833bb55,
