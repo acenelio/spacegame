@@ -25,7 +25,7 @@ public class LevelManager : MonoBehaviour
 
     void Update()
     {
-        Tape.position = Tape.position + TapeSpeed * Time.deltaTime;
+        Camera.main.transform.position = Camera.main.transform.position - TapeSpeed * Time.deltaTime;
         DisplayHubData();
     }
 
