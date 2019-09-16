@@ -66,7 +66,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 1760195275709367517, guid: 1d17bf68812514642b48b5a3a97798d5, type: 3}
   spawnPoint: {fileID: 8804002961668558203}
-  waitTime: 3
+  waitTime: 1
   ProjectileSpeed: 3
   directions:
   - {x: 1, y: 0, z: 0}
