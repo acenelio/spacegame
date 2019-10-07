@@ -12,33 +12,36 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: d58477ac34a44cd4380e0c4104d8610c
   - enabled: 1
-    path: Assets/Scenes/a.unity
-    guid: 8cd5b23c7f2174341922230ca4818bb3
-  - enabled: 1
-    path: Assets/Scenes/b.unity
-    guid: 1fa194d3fa976c54f814689248df77e3
-  - enabled: 1
-    path: Assets/Scenes/c.unity
-    guid: c55eb801326a91f41be76147cb6349be
-  - enabled: 1
-    path: Assets/Scenes/a_dir.unity
-    guid: 69e9968f7f1218a4684acc2691d155f9
-  - enabled: 1
-    path: Assets/Scenes/b_dir.unity
-    guid: 6c3afaf742d5f6549a66a166e2750545
-  - enabled: 1
-    path: Assets/Scenes/c_dir.unity
-    guid: dbb04b0ed0ab63146a6262041de430c9
-  - enabled: 1
-    path: Assets/Scenes/configuracao.unity
-    guid: 38cb357995a1c9a4e8617c723cfe2aaf
-  - enabled: 1
     path: Assets/Scenes/creditos.unity
     guid: 4b4a8063f9b2c5c4bbd4c6e514ac9d43
   - enabled: 1
     path: Assets/Scenes/historia.unity
     guid: e8d7803be1bbd2d48a2f5ec41d3e52a7
   - enabled: 1
+    path: Assets/Scenes/historia 1.unity
+    guid: a0a264b51c40c394193d9850017455f1
+  - enabled: 1
     path: Assets/Scenes/informacao.unity
     guid: 45a453b8611d75e428a6d72b7a6062c7
+  - enabled: 1
+    path: Assets/Scenes/configuracao.unity
+    guid: 38cb357995a1c9a4e8617c723cfe2aaf
+  - enabled: 1
+    path: Assets/Scenes/a.unity
+    guid: 8cd5b23c7f2174341922230ca4818bb3
+  - enabled: 1
+    path: Assets/Scenes/a_dir.unity
+    guid: 69e9968f7f1218a4684acc2691d155f9
+  - enabled: 1
+    path: Assets/Scenes/b.unity
+    guid: 1fa194d3fa976c54f814689248df77e3
+  - enabled: 1
+    path: Assets/Scenes/b_dir.unity
+    guid: 6c3afaf742d5f6549a66a166e2750545
+  - enabled: 1
+    path: Assets/Scenes/c.unity
+    guid: c55eb801326a91f41be76147cb6349be
+  - enabled: 1
+    path: Assets/Scenes/c_dir.unity
+    guid: dbb04b0ed0ab63146a6262041de430c9
   m_configObjects: {}
