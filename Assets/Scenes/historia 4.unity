@@ -198,7 +198,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: historia 2
+          m_StringArgument: historia 5
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -432,7 +432,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Um jovem planeta sofre as consequ\xEAncias de uma esp\xE9cie"
+  m_Text: "Ecossistemas inteiros destru\xEDdos pela gan\xE2ncia e ignor\xE2ncia humana"
 --- !u!222 &659360313
 CanvasRenderer:
   m_ObjectHideFlags: 0

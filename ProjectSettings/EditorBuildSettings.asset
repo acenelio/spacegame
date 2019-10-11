@@ -19,7 +19,22 @@ EditorBuildSettings:
     guid: e8d7803be1bbd2d48a2f5ec41d3e52a7
   - enabled: 1
     path: Assets/Scenes/historia 1.unity
-    guid: a0a264b51c40c394193d9850017455f1
+    guid: 92fe7a2450f507f4ca350c87ea83e399
+  - enabled: 1
+    path: Assets/Scenes/historia 2.unity
+    guid: 7dfb362d47130c94ca8440a1bf26431a
+  - enabled: 1
+    path: Assets/Scenes/historia 3.unity
+    guid: 80d447bf0aff7164f811745878b8268d
+  - enabled: 1
+    path: Assets/Scenes/historia 4.unity
+    guid: 930969e3cec836244b38167e425dced5
+  - enabled: 1
+    path: Assets/Scenes/historia 5.unity
+    guid: dcbaad68f604ec3408530aba57396560
+  - enabled: 1
+    path: Assets/Scenes/historia 6.unity
+    guid: 53fba788fda306c4bbdb74e10236842b
   - enabled: 1
     path: Assets/Scenes/a.unity
     guid: 8cd5b23c7f2174341922230ca4818bb3
