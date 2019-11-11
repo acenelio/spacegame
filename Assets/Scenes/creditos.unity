@@ -665,8 +665,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.638e-12, y: 184}
-  m_SizeDelta: {x: 1280, y: 290.3}
+  m_AnchoredPosition: {x: -231.8, y: 184}
+  m_SizeDelta: {x: 816.5, y: 290.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1109055524
 MonoBehaviour:
@@ -803,6 +803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1525544378}
   - component: {fileID: 1525544379}
+  - component: {fileID: 1525544380}
   m_Layer: 0
   m_Name: BGMusic
   m_TagString: Untagged
@@ -920,6 +921,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1525544380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525544377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca52f5b6d49b63e498b43e589de8ba79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1555936183
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,8 +967,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6, y: 189.45004}
-  m_SizeDelta: {x: 1280, y: 279.4}
+  m_AnchoredPosition: {x: 51.4, y: 211.6}
+  m_SizeDelta: {x: 705.9, y: 191.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1555936185
 MonoBehaviour:
@@ -1204,7 +1217,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1974991528}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1525544380}
+        m_MethodName: SwitchAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1974991528

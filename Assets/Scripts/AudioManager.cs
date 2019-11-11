@@ -15,15 +15,23 @@ public class AudioManager : MonoBehaviour
     }
 
     public void PlayCoinPickupSound(GameObject obj){
-        AudioSource.PlayClipAtPoint(audioSFX.coinPickup, obj.transform.position);
+        TocarSom(audioSFX.coinPickup, obj.transform.position);
     }
     public void PlayJumpPickupSound(GameObject obj){
-        AudioSource.PlayClipAtPoint(audioSFX.coinPickup, obj.transform.position);
+        TocarSom(audioSFX.coinPickup, obj.transform.position);
     }
     public void PlayFailSound(GameObject obj){
-        AudioSource.PlayClipAtPoint(audioSFX.fail, obj.transform.position);
+        TocarSom(audioSFX.fail, obj.transform.position);
     }
     public void PlayLevelCompleteSound(GameObject obj){
-        AudioSource.PlayClipAtPoint(audioSFX.levelComplete, obj.transform.position);
+        TocarSom(audioSFX.levelComplete, obj.transform.position);
+    }
+
+    void TocarSom(AudioClip audioClip, Vector3 position)
+    {
+        if (AudioMute.instance.AudioOn)
+        {
+            AudioSource.PlayClipAtPoint(audioClip, position);
+        }
     }
 }
